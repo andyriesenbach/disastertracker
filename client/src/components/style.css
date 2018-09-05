@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 300 1em/1.5 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#hero-image {
+  width: 100%;
+  max-height: 90vh;
+  height: auto;
+}
+
+#hero-content {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: white;
+    font-size: 2.5em;
+}
+
+.sticky-footer {
+  background: #e5e5e5;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+  z-index: 10;
+  transform: translateZ(0);
+}
